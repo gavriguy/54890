@@ -1,4 +1,4 @@
-Feature: Add items to a collection
+Feature: Add items to collection!
 	In order to a mixed lists of content types on our apps
 	As a product manager
 	I want to be able to add all the kinds of that we support items to a collections
