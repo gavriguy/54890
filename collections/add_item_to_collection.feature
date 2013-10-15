@@ -17,6 +17,7 @@ Feature: Add items to collection!
 		When I select it 
 		Then I can see the item name
 		And description
+		# text area in the size of 12
 		And preview image
 		And a link to go to the real item form
 
