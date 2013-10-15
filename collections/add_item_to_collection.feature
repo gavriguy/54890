@@ -1,3 +1,4 @@
+![Alt text](https://monosnap.com/image/B5LUG5GspBwjGGIZ7qB1ftQpT.png)
 Feature: Add items to a collection
 	In order to a mixed lists of content types on our apps
 	As a product manager
