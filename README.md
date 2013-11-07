@@ -1,18 +1,17 @@
+```
 {
   programs: [
     {
-      name: "name of program",
+      name: "name of program", 
       description: "description of program",
-      start_time: 1375192800000, //timestamp
-      end_time: 1375714800000,
-      thumbnail: "http://www.carto.net/neumann/panoramas/sandnes_flakstadoya_lofoten_2008_06/pano1/sandnes_flakstadoya_lofoten_panorama_medium_res.jpg"
+      start_time: 1375192800000, //timestamp - start time of the program
+      end_time: 1375714800000, //timestamp - end time of the program
+      thumbnail: "http://...progrma_image_thumbnail.jpg" // the image file will served to the client form that URL directly so it should hold the expected amount of requests wanted (CDN is recommended). Image size will be detrmaind according to the app design
+      external_stream_source: {
+
+      },
+      tag: "tag_name" //text that holds tags that the client can use - For megaphone we'll use this tag to hold the sports code name
     },
-    {
-      name: "Found",
-      description: "passengers of a plane found by passengers of boat.",
-      start_time: 1375714800000,
-      end_time: 1375718400000,
-      thumbnail: "http://www.angelesamor.org/wp-content/uploads/2011/12/Magura___Panorama_by_vxside.jpg"
-    }
+    ...
   ]
 }
